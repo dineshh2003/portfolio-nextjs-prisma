@@ -17,7 +17,7 @@ const Herosection = () => {
       </div>
       {/* text wrapper */}
       <div className="flex flex-1 flex-col justify-center items-center gap-5 px-4">
-        <h1 className="text-2xl md:text-3xl font-sans text-slate-800">Hello, I'm</h1>
+        <h1 className="text-2xl md:text-3xl font-sans text-slate-800">Hello, Im</h1>
         <p className="text-4xl md:text-5xl font-bold text-pretty text-slate-600">
           Dinesh Jangid
         </p>
