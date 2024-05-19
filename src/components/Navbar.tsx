@@ -31,7 +31,7 @@ const Navbar = () => {
         </button>
       </div>
       {isMenuOpen && (
-        <div className="absolute top-32 left-0 w-full bg-white flex flex-col items-center gap-2 font-bold md:hidden">
+        <div className="absolute top-32 left-0 w-full bg-white flex flex-col items-center gap-2 font-bold md:hidden opacity-80">
           <Link href="/about">About</Link>
           <Link href="/project">Project</Link>
           <Link href="/skills">Skills</Link>

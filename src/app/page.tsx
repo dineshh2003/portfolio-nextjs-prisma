@@ -9,11 +9,11 @@ import ContactPage from "./contact/page";
 export default function Home() {
   return (
     <main className="h-auto w-full scroll-m-10">
-          {/* <Herosection/>
+          <Herosection/>
           <AboutPage/>
           <SkillPage/>
           <ProjectPage/>
-          <ContactPage/> */}
+          <ContactPage/>
     </main>
   );
 }
