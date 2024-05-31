@@ -23,8 +23,8 @@ const AboutPage = () => {
           />
           <h3 className="text-lg font-semibold mb-2">Experience</h3>
           <p className="text-gray-600">
-            Fresher (searching for jobs) <br />
-            Web Development
+            Fresher (searching for opportunities) <br />
+            Passionate web developer with a knack for innovative problem-solving(DSA), dedicated to crafting seamless and efficient digital experiences.
           </p>
         </div>
         <div className="flex flex-col items-center bg-white p-6 rounded-2xl border border-gray-400 text-center flex-1">
@@ -37,18 +37,13 @@ const AboutPage = () => {
           />
           <h3 className="text-lg font-semibold mb-2">Education</h3>
           <p className="text-gray-600">
-            B.Tech in Electrical Engineering from NIT Rourkela
+          3rd-year Electrical Engineering (B-tech) undergraduate at National Institute of Technology, Rourkela!
           </p>
         </div>
       </div>
       <div className="text-container px-6 text-center max-w-3xl">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          reprehenderit et laborum, rem, dolore eum quod voluptate
-          exercitationem nobis, nihil esse debitis maxime facere minus sint
-          delectus velit in eos quo officiis explicabo deleniti dignissimos.
-          Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-          reiciendis ea magnam? Nulla, impedit fuga!
+        Hello, I&apos;m Dinesh Jangid, a 3rd-year Electrical Engineering student at NIT Rourkela with a passion for web development. I specialize in solving complex problems with creative solutions and delivering robust, user-friendly web applications. My technical expertise, combined with my dedication to innovation, ensures that I always come up with effective solutions to the challenges I encounter.
         </p>
       </div>
     </div>

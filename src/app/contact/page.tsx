@@ -112,7 +112,7 @@ const ContactPage = () => {
                 ></textarea>
               </div>
               <div className="text-gray-700 mb-4">
-                Thank you for visiting my portfolio. This is just a small glimpse of who I am and what I know. If you&apos;d like to discuss more potential opportunities, please feel free to get in touch by filling out your details below.
+                Thank you for visiting my portfolio. If you&apos;d like to discuss more potential opportunities, please feel free to get in touch by filling out your details below or mail .
               </div>
               <div className="flex items-center justify-between">
                 <button
