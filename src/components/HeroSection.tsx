@@ -2,7 +2,11 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const Herosection = () => {
+interface HerosectionProps {
+  onProjectsClick: () => void;
+}
+
+const Herosection: React.FC<HerosectionProps> = ({ onProjectsClick }) => {
   return (
     <div className="flex flex-col md:flex-row h-[calc(100vh-8rem)] gap-4">
       {/* image wrapper */}
@@ -17,7 +21,7 @@ const Herosection = () => {
       </div>
       {/* text wrapper */}
       <div className="flex flex-1 flex-col justify-center items-center gap-5 px-4">
-        <h1 className="text-2xl md:text-3xl font-sans text-slate-800">Hello, Im</h1>
+        <h1 className="text-2xl md:text-3xl font-sans text-slate-800">Hello, I'm</h1>
         <p className="text-4xl md:text-5xl font-bold text-pretty text-slate-600">
           Dinesh Jangid
         </p>
@@ -26,9 +30,17 @@ const Herosection = () => {
         </p>
         <div className="flex flex-row gap-5">
           <button className="bg-transparent h-12 md:h-16 w-24 md:w-28 border-r-4 text-black hover:bg-slate-800 font-semibold hover:text-white py-2 px-4 border shadow-xl hover:border-transparent rounded-full">
+          <a 
+            href="/resume.pdf" 
+            download 
+          >
             Resume
+          </a>
           </button>
-          <button className="bg-slate-800 h-12 md:h-16 w-24 md:w-28 text-white shadow-2xl hover:bg-stone-600 font-bold py-2 px-4 rounded-full">
+          <button
+            className="bg-slate-800 h-12 md:h-16 w-24 md:w-28 text-white shadow-2xl hover:bg-stone-600 font-bold py-2 px-4 rounded-full"
+            onClick={onProjectsClick}
+          >
             Projects
           </button>
         </div>

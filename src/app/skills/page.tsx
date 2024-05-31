@@ -12,15 +12,15 @@ const SkillPage = () => {
         <div className="flex flex-col md:flex-row gap-8 justify-center w-full">
           <div className="flex flex-col items-center bg-white p-6 rounded-2xl border border-gray-400 text-center flex-1 mx-4 md:mx-8">
             <h2 className="text-gray-700 font-semibold text-xl mb-8">
-              Frontend Development
+              Relevent Cources
             </h2>
             <div className="flex flex-wrap justify-around gap-6">
-              {["HTML", "CSS", "SASS", "JavaScript", "TypeScript", "Material UI"].map((skill, index) => (
+              {["DataStructure and Algorithm(DSA)", "DataBase Management System(DBMS)", "Structured Query Language(SQL)", "Operating System(OS)"].map((skill, index) => (
                 <article key={index} className="flex items-center gap-2.5 w-32">
                   <Image src="/assets/checkmark.png" alt="Experience icon" width={24} height={24} />
                   <div>
                     <h3 className="font-semibold">{skill}</h3>
-                    <p className="text-gray-600">{skill === "HTML" || skill === "CSS" ? "Experienced" : skill === "SASS" || skill === "Material UI" ? "Intermediate" : "Basic"}</p>
+                    {/* <p className="text-gray-600">{skill === "HTML" || skill === "CSS" ? "Experienced" : skill === "SASS" || skill === "Material UI" ? "Intermediate" : "Basic"}</p> */}
                   </div>
                 </article>
               ))}
@@ -28,10 +28,10 @@ const SkillPage = () => {
           </div>
           <div className="flex flex-col items-center bg-white p-6 rounded-2xl border border-gray-400 text-center flex-1 mx-4 md:mx-8">
             <h2 className="text-gray-700 font-semibold text-xl mb-8">
-              Backend Development
+              Tech Stack
             </h2>
             <div className="flex flex-wrap justify-around gap-6">
-              {["PostgreSQL", "Node JS", "Express JS", "Git"].map((skill, index) => (
+              {["HTML", "CSS, SASS, Tailwind", "Javascript", "React" , "Next.js", "Express", "Node js", "firebase","MongoDB", "Prisma", "PostgreSQl"].map((skill, index) => (
                 <article key={index} className="flex items-center gap-2.5 w-32">
                   <Image src="/assets/checkmark.png" alt="Experience icon" width={24} height={24} />
                   <div>

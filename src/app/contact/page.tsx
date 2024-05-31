@@ -18,7 +18,6 @@ const ContactPage = () => {
       ...prevData,
       [name]: value,
     }));
-    console.log(formdata);
   };
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
@@ -113,7 +112,7 @@ const ContactPage = () => {
                 ></textarea>
               </div>
               <div className="text-gray-700 mb-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, facilis.
+                Thank you for visiting my portfolio. This is just a small glimpse of who I am and what I know. If you'd like to discuss more potential opportunities, please feel free to get in touch by filling out your details below.
               </div>
               <div className="flex items-center justify-between">
                 <button
@@ -126,23 +125,23 @@ const ContactPage = () => {
             </form>
           </div>
           <div className="w-full lg:w-2/6 bg-blue-500 shadow-xl flex flex-col justify-center items-center gap-2 p-4">
-            <div className="flex flex-row w-full gap-4 justify-center mb-4">
-              <Link href="mailto:dinujangid89@gmail.com" passHref>
+            <div className="flex flex-row w-full gap-4 justify-center mb-4 ">
+              <Link href={`mailto:dinujangid89@gmail.com`} passHref className="flex flex-row gap-4">
                 <Image src="/assets/email.png" height={30} width={30} alt="Email Icon" />
+                <h1 className="text-lg font-sans text-slate-800">dinujangid89@gmail.com</h1>
               </Link>
-              <h1 className="text-lg font-sans text-slate-800">dinujangid89@gmail.com</h1>
             </div>
             <div className="flex flex-row w-full gap-4 justify-center mb-4">
-              <Link href="https://www.linkedin.com/in/dineshh2003/" passHref>
+              <Link href="https://www.linkedin.com/in/dineshh2003/" passHref className="flex flex-row gap-4">
                 <Image src="/assets/linkedin.png" height={30} width={30} alt="LinkedIn Icon" />
+                <h1 className="text-lg font-sans text-slate-800">LinkedIn</h1>
               </Link>
-              <h1 className="text-lg font-sans text-slate-800">LinkedIn</h1>
             </div>
             <div className="flex flex-row w-full gap-4 justify-center mb-4">
-              <Link href="https://github.com/dineshh2003/" passHref>
+              <Link href="https://github.com/dineshh2003/" passHref className="flex flex-row gap-4">
                 <Image src="/assets/github.png" height={30} width={30} alt="Github Icon" />
+                <h1 className="text-lg font-sans text-slate-800">Github</h1>
               </Link>
-              <h1 className="text-lg font-sans text-slate-800">Github</h1>
             </div>
           </div>
         </div>
