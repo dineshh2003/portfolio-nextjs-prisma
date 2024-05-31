@@ -31,7 +31,7 @@ const Herosection: React.FC<HerosectionProps> = ({ onProjectsClick }) => {
         <div className="flex flex-row gap-5">
           <button className="bg-transparent h-12 md:h-16 w-24 md:w-28 border-r-4 text-black hover:bg-slate-800 font-semibold hover:text-white py-2 px-4 border shadow-xl hover:border-transparent rounded-full">
           <a 
-            href="/resume.pdf" 
+            href="/Resume.pdf" 
             download 
           >
             Resume
