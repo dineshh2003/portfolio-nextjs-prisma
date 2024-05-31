@@ -46,9 +46,9 @@ const ProjectPage = () => {
           </div>
           <div className="flex flex-col items-center bg-gray-100 p-4 rounded-2xl border border-gray-400 text-center flex-1 mx-4 md:mx-8 h-auto w-full md:w-96">
             <div className="flex justify-center mb-4 h-48 w-full">
-              <Image src="/assets/let'schat.jpg" alt="" className="rounded-2xl w-full h-full object-cover" width={384} height={192} />
+              <Image src="/assets/chat.jpg" alt="" className="rounded-2xl w-full h-full object-cover" width={384} height={192} />
             </div>
-            <h2 className="text-gray-900 font-semibold text-xl mb-4">Let's Chat</h2>
+            <h2 className="text-gray-900 font-semibold text-xl mb-4">let&apos;s Chat</h2>
             <p className="text-gray-900 font-semibold text-m mb-4">
               I developed a real-time chat application using Node.js, incorporating JWT tokens for robust authentication. This ensures secure user communication and data protection. The application supports one-on-one and group chats, featuring an intuitive user interface and reliable performance, making it a secure and user-friendly messaging solution.
             </p>
