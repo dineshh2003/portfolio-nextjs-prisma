@@ -20,7 +20,7 @@ const SkillPage = () => {
                   <Image src="/assets/checkmark.png" alt="Experience icon" width={24} height={24} />
                   <div>
                     <h3 className="font-semibold">{skill}</h3>
-                    {/* <p className="text-gray-600">{skill === "HTML" || skill === "CSS" ? "Experienced" : skill === "SASS" || skill === "Material UI" ? "Intermediate" : "Basic"}</p> */}
+                    
                   </div>
                 </article>
               ))}
@@ -36,7 +36,6 @@ const SkillPage = () => {
                   <Image src="/assets/checkmark.png" alt="Experience icon" width={24} height={24} />
                   <div>
                     <h3 className="font-semibold">{skill}</h3>
-                    <p className="text-gray-600">{skill === "Node JS" || skill === "Express JS" || skill === "Git" ? "Intermediate" : "Basic"}</p>
                   </div>
                 </article>
               ))}

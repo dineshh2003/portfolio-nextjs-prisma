@@ -47,7 +47,7 @@ const AboutPage = () => {
         </div>
         <div className="text-container px-6 text-center max-w-3xl">
           <p>
-            Hello, I'm Dinesh Jangid, a 3rd-year Electrical Engineering student
+            Hello, I&apos;m Dinesh Jangid, a 3rd-year Electrical Engineering student
             at NIT Rourkela with a passion for web development. I specialize in
             solving complex problems with creative solutions and delivering
             robust, user-friendly web applications. My technical expertise,
