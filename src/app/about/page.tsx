@@ -4,16 +4,16 @@ import Image from "next/image";
 
 const AboutPage = () => {
   return (
-    <section id="about" className="py-16 px-6">
-    <div className="h-2/6 flex flex-col justify-center items-center mb-8">
-      <p className="text-xl text-center mb-4">Get To Know More</p>
-      <h1 className="text-3xl md:text-5xl font-extrabold text-center mb-8">
+    <section id="about" className="py-16 px-6 bg-gradient-to-r from-b2 to-b3 font-roboto">
+    <div className="h-2/6 flex flex-col justify-center items-center mb-8 ">
+      <p className="text-xl text-center mb-4 text-green font-roboto">Get To Know More</p>
+      <h1 className="text-3xl md:text-5xl font-extrabold text-center text-gray-400 mb-8">
         About Me
       </h1>
     </div>
     <div className="flex flex-col items-center gap-16 h-4/6">
       <div className="flex flex-col md:flex-row gap-8 mb-8 w-full">
-        <div className="flex flex-col items-center bg-white p-6 rounded-2xl border border-gray-400 text-center flex-1">
+        <div className="flex flex-col items-center bg-b3 p-6 rounded-2xl border border-gray-400 text-center flex-1">
           <Image
             src="/assets/experience.png"
             alt="Experience icon"
@@ -21,13 +21,13 @@ const AboutPage = () => {
             height={48}
             className="mb-4"
           />
-          <h3 className="text-lg font-semibold mb-2">Experience</h3>
-          <p className="text-gray-600">
+          <h3 className="text-lg font-semibold mb-2 text-green">Experience</h3>
+          <p className="text-gray-300">
             Fresher (searching for opportunities) <br />
             Passionate web developer with a knack for innovative problem-solving(DSA), dedicated to crafting seamless and efficient digital experiences.
           </p>
         </div>
-        <div className="flex flex-col items-center bg-white p-6 rounded-2xl border border-gray-400 text-center flex-1">
+        <div className="flex flex-col items-center bg-b3 p-6 rounded-2xl border border-gray-400 text-center flex-1">
           <Image
             src="/assets/education.png"
             alt="Education icon"
@@ -35,14 +35,14 @@ const AboutPage = () => {
             height={48}
             className="mb-4"
           />
-          <h3 className="text-lg font-semibold mb-2">Education</h3>
-          <p className="text-gray-600">
+          <h3 className="text-lg font-semibold mb-2 text-green">Education</h3>
+          <p className="text-gray-300">
           3rd-year Electrical Engineering (B-tech) undergraduate at National Institute of Technology, Rourkela!
           </p>
         </div>
       </div>
-      <div className="text-container px-6 text-center max-w-3xl">
-        <p>
+      <div className="text-container px-6 text-center max-w-3xl text-green">
+        <p >
         Hello, I&apos;m Dinesh Jangid, a 3rd-year Electrical Engineering student at NIT Rourkela with a passion for web development. I specialize in solving complex problems with creative solutions and delivering robust, user-friendly web applications. My technical expertise, combined with my dedication to innovation, ensures that I always come up with effective solutions to the challenges I encounter.
         </p>
       </div>

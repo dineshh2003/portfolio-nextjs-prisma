@@ -21,11 +21,15 @@ export default function Home() {
   return (
     <main className="h-auto w-full scroll-m-10">
       <Herosection onProjectsClick={handleProjectsClick} />
+      <hr className="h-px bg-gray-200 border-1"></hr>
       <AboutPage />
+      <hr className="h-px bg-gray-200 border-1"></hr>
       <SkillPage />
+      <hr className="h-px bg-gray-200 border-1"></hr>
       <section ref={projectRef}>
         <ProjectPage />
       </section>
+      <hr className="h-px bg-gray-200 border-1"></hr>
       <ContactPage />
     </main>
   );
