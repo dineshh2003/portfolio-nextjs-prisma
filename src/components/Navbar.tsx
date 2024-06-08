@@ -12,7 +12,7 @@ const Navbar = () => {
   }; 
 
   return (
-    <nav className="h-32 w-full flex justify-between items-center px-4 md:px-8 md:justify-around bg-gradient-to-r from-b2 to-b3 ">
+    <nav className="h-32 w-full flex justify-between items-center px-4 md:px-8 md:justify-around bg-gradient-to-r from-b2 to-b3">
       <div className="flex items-center">
         <Link href="/">
           <Image src="/assets/logo.png" height={50} width={50} alt=''/>
